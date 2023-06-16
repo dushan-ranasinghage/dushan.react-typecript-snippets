@@ -1,0 +1,20 @@
+{
+  "name": "react-typescript-snippets",
+  "displayName": "React Typescript Snippets",
+  "description": "Extensions for React, React-Native and Redux in TS with ES7+ syntax. Customizable.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "react, typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
