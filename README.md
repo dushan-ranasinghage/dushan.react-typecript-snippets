@@ -1,6 +1,6 @@
-# react-typescript-snippets README
+# react-typescript-enterprise README
 
-This is the README for your extension "react-typescript-snippets". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "react-typescript-enterprise". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

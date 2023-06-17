@@ -1,18 +1,19 @@
 {
-  "name": "react-typescript-snippets",
-  "displayName": "React Typescript Snippets",
-  "description": "Extensions for React, React-Native and Redux in TS with ES7+ syntax. Customizable.",
+  "name": "react-typescript-enterprise",
+  "displayName": "Enterprise React Typescript Code Snippets",
+  "description": "A collection of code snippets for react typescript enterprise applications.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"
   },
+  "icon": "images/icon.png",
   "categories": [
     "Snippets"
   ],
   "contributes": {
     "snippets": [
       {
-        "language": "react, typescript",
+        "language": "typescript",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
