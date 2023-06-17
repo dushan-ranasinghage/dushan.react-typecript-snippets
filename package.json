@@ -3,19 +3,43 @@
   "displayName": "Enterprise React Typescript Code Snippets",
   "description": "A collection of code snippets for react typescript enterprise applications.",
   "version": "0.0.1",
+  "publisher": "dushan-ranasinghage",
   "engines": {
-    "vscode": "^1.79.0"
+    "vscode": "0.10.x"
   },
   "icon": "images/icon.png",
+  "galleryBanner": {
+		"theme": "light"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dushan-ranasinghage/dushan.react-typecript-snippets.git"
+	},
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+		"react",
+		"vscode",
+		"typescript",
+		"vscode-extension"
+	],
+  "author": "dushan-ranasinghage",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dushan-ranasinghage/dushan.react-typecript-snippets/issues"
+	},
+	"homepage": "https://github.com/dushan-ranasinghage/dushan.react-typecript-snippets#readme",
   "contributes": {
     "snippets": [
       {
         "language": "typescript",
         "path": "./snippets/snippets.code-snippets"
-      }
+      },
+      {
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			}
     ]
   }
 }

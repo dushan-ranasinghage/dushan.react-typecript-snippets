@@ -1,5 +1,5 @@
 {
-    "Console Log Shorthand Snippet": {
+    "Console Log": {
         "prefix": "clg",
         "body": [
             "console.log(${0});"
