@@ -3,7 +3,7 @@
   "displayName": "Enterprise React Typescript Code Snippets",
   "description": "A collection of code snippets for react typescript enterprise applications.",
   "version": "0.0.1",
-  "publisher": "dushan-ranasinghage",
+  "publisher": "Dushan Ranasinghage",
   "engines": {
     "vscode": "0.10.x"
   },
@@ -24,7 +24,7 @@
 		"typescript",
 		"vscode-extension"
 	],
-  "author": "dushan-ranasinghage",
+  "author": "Dushan Ranasinghage",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/dushan-ranasinghage/dushan.react-typecript-snippets/issues"

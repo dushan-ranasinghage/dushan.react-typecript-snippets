@@ -1,9 +1,68 @@
 {
-    "Console Log": {
-        "prefix": "clg",
-        "body": [
-            "console.log(${0});"
-        ],
-        "description": "Console log code snippet"
-    }
+  "Console Log": {
+    "prefix": "clg",
+    "body": [
+      "console.log(${0});"
+    ],
+    "description": "Console log code snippet"
+  },
+  "React Stateless Functional Component": {
+    "prefix": "tsrsfc",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "interface I${1:App}Props {",
+      "",
+      "}",
+      "",
+      "const ${1:}: React.FC<I${1:}Props> = ({ }) => {",
+      "   return (",
+      "     <div>",
+      "       ${2:}",
+      "     </div>",
+      "   );",
+      "};",
+      "",
+      "export default ${1:};",
+      ""
+    ],
+    "description": "Create a React Stateless Functional Component."
+  },
+  "React Stateless Functional Component with Redux": {
+    "prefix": "tsrsfcrdx",
+    "body": [
+      "import { FC } from 'react';",
+      "import { connect, ConnectedProps } from 'react-redux';",
+      "",
+      "interface I${1:App}Props {",
+      "",
+      "}",
+      "",
+      "const mapState = (state: any) => ({",
+      "   propName: selectorHere(state)",
+      "});",
+      "",
+      "const connector = connect(mapState);",
+      "type PropsFromRedux = ConnectedProps<typeof connector>;",
+      "",
+      "const ${1:}: React.FC<I${1:}Props & PropsFromRedux> = ({ propName }) => {",
+      "   return (",
+      "     <div>",
+      "       ${2:}",
+      "     </div>",
+      "   );",
+      "};",
+      "",
+      "export default connector(${1:});",
+      ""
+    ],
+    "description": "Create a React Stateless Functional Component."
+  },
+  "React useState with Type": {
+    "prefix": "tsrsus",
+    "body": [
+      "const [${1}, set${1/(^.)(.*)/${1:/capitalize}${2}/}] = useState<${2:}>(${3:});",
+    ],
+    "description": "Create a React Typescript useState"
+  },
 }
