@@ -1,7 +1,7 @@
 {
   "name": "react-typescript-enterprise",
   "displayName": "Enterprise React Typescript Code Snippets",
-  "description": "A collection of code snippets for react typescript enterprise applications.",
+  "description": "A collection of ES7 code snippets for react typescript enterprise applications.",
   "version": "0.0.2",
   "publisher": "Dushan Ranasinghage",
   "engines": {

@@ -1,6 +1,6 @@
 # react-typescript-enterprise README
 
-This README provides information about the react-typescript-enterprise extension, which includes code snippets for React with Typescript.
+This README provides information about the react-typescript-enterprise extension, which includes ES7 code snippets for React with Typescript.
 
 ## Installation
 
