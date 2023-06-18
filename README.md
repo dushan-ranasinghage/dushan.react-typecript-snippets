@@ -31,7 +31,7 @@ Here is a list of all available snippets and their triggers. Pressing the **⇥*
 | -------: | ------- |
 | `clg→` | `console.log()` |
 | `clw→` | `console.warn()` |
-| `clac→`| `console.assert()` |
+| `cla→`| `console.assert()` |
 | `tsrsfc→`| `stateless functional skeleton` |
 | `tsrsfcrdx→`| `stateless functional with redux skeleton` |
 | `tsrcc→`| `class component skeleton` |

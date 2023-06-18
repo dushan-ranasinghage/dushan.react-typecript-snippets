@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+### 0.0.2 (2022-02-08)
+* Test Changelog Release
+
+### 0.0.1
+* Initial release
